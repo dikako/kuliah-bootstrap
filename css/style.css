@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Yusei+Magic&display=swap");
+
+.jumbotron {
+  background-image: url(../img/jumbotron1.jpg);
+  background-size: cover;
+  height: 770px;
+  text-align: center;
+  color: black;
+  margin-top: -20px;
+  padding-top: 220px;
+}
+
+.jumbotron .display-4 {
+  font-family: "Yusei Magic", sans-serif;
+}
+
+.jumbotron p {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.jumbotron .button-text {
+  font-family: "Pacifico", cursive;
+  color: rgb(255, 255, 255);
+}
+
+@-webkit-keyframes bounce {
+  to {
+    -webkit-transform: scale(1.2);
+  }
+}
+@-moz-keyframes bounce {
+  to {
+    -moz-transform: scale(1.2);
+  }
+}
+@keyframes bounce {
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.jumbotron .btn {
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  -webkit-animation: bounce 0.3s infinite alternate;
+  -moz-animation: bounce 0.3s infinite alternate;
+  animation: bounce 0.3s infinite alternate;
+}
+
+.jumbotron .btn:hover {
+  background-color: #0000006e;
+}
+
+#mainNav {
+  color: rgb(0, 0, 0);
+}
