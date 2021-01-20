@@ -1,31 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Yusei+Magic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Yusei+Magic&display=swap");
-
-.jumbotron {
-  background-image: url(../img/jumbotron1.jpg);
-  background-size: cover;
-  height: 770px;
-  text-align: center;
-  color: black;
-  margin-top: -20px;
-  padding-top: 220px;
-}
-
-.jumbotron .display-4 {
-  font-family: "Yusei Magic", sans-serif;
-}
-
-.jumbotron p {
-  font-family: "Dancing Script", cursive;
-  font-size: 25px;
-  padding-bottom: 20px;
-}
-
-.jumbotron .button-text {
-  font-family: "Pacifico", cursive;
-  color: rgb(255, 255, 255);
-}
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Hanalei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 
 @-webkit-keyframes bounce {
   to {
@@ -43,19 +21,76 @@
   }
 }
 
-.jumbotron .btn {
-  border-radius: 20px;
+#mainNav {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  font-family: 'Almarai', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 35px;
+  font-family: 'Hanalei', cursive;
+}
+
+/* Slider style */
+.carousel-item {
+  height: 800px;
+}
+
+/* Caption Slider */
+.carousel-caption .display-4 {
+  font-family: 'Hanalei', cursive;
+  color: black;
+}
+
+/* Carousel */
+.carousel-item  .button-text {
+  font-family: "Pacifico", cursive;
+  color: rgb(0, 0, 0);
+}
+
+.carousel-item .btn {
+  margin-top: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
   -webkit-animation: bounce 0.3s infinite alternate;
   -moz-animation: bounce 0.3s infinite alternate;
   animation: bounce 0.3s infinite alternate;
+  border: 1px solid black;
 }
 
-.jumbotron .btn:hover {
-  background-color: #0000006e;
+.carousel-item .btn-dark {
+  background-color:rgba(0, 0, 0, 0);
 }
 
-#mainNav {
-  color: rgb(0, 0, 0);
+.carousel-item .btn:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.829);
+}
+
+.carousel-caption {
+  text-align: center;
+  padding-bottom: 500px;
+}
+
+/* content */
+
+.title-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: 'Hachi Maru Pop', cursive;
+}
+
+.text-content {
+  font-size: 14px;
+  text-align: justify;
+  text-align-last: center;
+  padding-bottom: 40px;
+}
+
+#about-me {
+}
+
+hr {
 }
