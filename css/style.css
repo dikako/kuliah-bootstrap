@@ -45,12 +45,14 @@
 .carousel-caption .display-4 {
   font-family: 'Hanalei', cursive;
   color: black;
+  font-size: 40px;
 }
 
 /* Carousel */
 .carousel-item  .button-text {
   font-family: 'Homemade Apple', cursive;
   color: rgb(0, 0, 0);
+  font-size: 12px;
 }
 
 .carousel-item .btn {
@@ -99,7 +101,7 @@
 .card-title {
   font-family: 'Roboto', sans-serif;
   color: black;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .card-img-top {
@@ -117,6 +119,7 @@
 
 .card-text {
   font-family: 'Work Sans', sans-serif;
+  font-size: 10px;
 }
 
 .footer {
