@@ -131,6 +131,11 @@
 
 .download {
   padding-bottom: 50px;
+  text-align: center;
+}
+
+.text-download {
+  text-align: center;
 }
 
 a {
