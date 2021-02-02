@@ -9,7 +9,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <title>F A S</title>
 </head>
@@ -43,7 +45,13 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about-me">About Me</a>
+                        <a class="nav-link js-scroll-trigger" href="#about-me">Greeting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#bio">Biography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#edu">Educations</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#experiences">Experiences</a>
@@ -68,30 +76,27 @@
 
         <div class="carousel-inner">
             <div class="carousel-item">
-                <img src="img/slide1.jpg" alt="Blonde" class="d-block w-100">
+                <img src="img/slide1.jpg" alt="Blonde" class="d-block w-100" />
                 <div class="carousel-caption">
                     <h1 class="display-4">FIND OUT ABOUT ME</h1>
                     <a class="btn btn-dark btn-lg button-text" target="_blank" href="https://github.com/dikako"
-                        role="button">Click
-                        Me</a>
+                        role="button">Click Me</a>
                 </div>
             </div>
-            <div class="carousel-item  active">
-                <img src="img/slide2.jpg" alt="Flying" class="d-block w-100">
+            <div class="carousel-item active">
+                <img src="img/slide2.jpg" alt="Flying" class="d-block w-100" />
                 <div class="carousel-caption">
                     <h1 class="display-4">FIND OUT ABOUT ME</h1>
                     <a class="btn btn-dark btn-lg button-text" target="_blank" href="https://github.com/dikako"
-                        role="button">Click
-                        Me</a>
+                        role="button">Click Me</a>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/slide3.jpg" alt="Flying" class="d-block w-100">
+                <img src="img/slide3.jpg" alt="Flying" class="d-block w-100" />
                 <div class="carousel-caption">
                     <h1 class="display-4">FIND OUT ABOUT ME</h1>
                     <a class="btn btn-dark btn-lg button-text" target="_blank" href="https://github.com/dikako"
-                        role="button">Click
-                        Me</a>
+                        role="button">Click Me</a>
                 </div>
             </div>
 
@@ -107,33 +112,119 @@
         </div>
     </div>
 
-    <div class="container" id="about-me">
-        <h1 class="title-content">About Me</h1>
-        <p class="text-content">Hi Internet, <br /><b>F A S</b> is an abbreviation of my name Fransiskus Andika
-            Setiawan, Most of the people closest to me call me <b>Dika.</b> You can get to know me better, <a
-                href="https://github.com/dikako" target="_blank"><b>Click Me</b></a></p>
+    <div class="container" id="bio">
+        <h1 class="title-content">Cheers 😁 🤘</h1>
+        <p class="text-content">
+            Hi Internet, welcome to my portofolio page.
+            Enjoyy..
+        </p>
+    </div>
+
+    <div class="container">
+        <h1 class="title-content">Biography</h1>
+
+        <p style="text-align: center;">
+            <b style="color: red;">Click me -></b>
+            <a class="btn btn-light" data-bs-toggle="collapse" href="#myName" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">My name</a>
+            <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#born" aria-expanded="false" aria-controls="multiCollapseExample2">I was born in</button>
+            <b style="color: red;"><- Click me</b>
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="myName">
+                <div class="card card-body">
+                  <b>My name Fransiskus Andika Setiawan, you can call me dika 🤘</b>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="born">
+                <div class="card card-body">
+                  <b>I was born in Pasir Sakti, Lampung Timur on 04 November 1998 🍭</b>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="container" id="edu">
+        <h1 class="title-content">Educations</h1>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <b>Senior High School </b>
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>SMA NEGERI 1 PASIR SAKTI</p>
+                        <p>2013 - 2016</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <b>Diploma</b>
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>POLITEKNIK NEGERI LAMPUNG</p>
+                        <p>2016 - 2019</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <b>Bachelor Degree</b>
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>IDS DIGITAL COLLAGE</p>
+                        <p>2019 - Now</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="container" id="experiences">
         <h1 class="title-content">Experiences</h1>
         <div class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="img/experiences/eannovate.jpg" alt="Eannovate">
+                <img class="card-img-top" src="img/experiences/eannovate.jpg" alt="Eannovate" />
                 <div class="card-body">
-                    <h5 class="card-title">Eannovate Digital Agency - Magang as Software Engineer</h5>
-                    <p class="card-text">Develop Wep Application, Rest Api and make Unit Testing </p>
+                    <h5 class="card-title">
+                        Eannovate Digital Agency - Magang as Software Engineer
+                    </h5>
+                    <p class="card-text">
+                        Develop Wep Application, Rest Api and make Unit Testing
+                    </p>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">Feb 2018 – Mei 2018</small>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="img/experiences/rctiplus.png" alt="Rctiplus">
+                <img class="card-img-top" src="img/experiences/rctiplus.png" alt="Rctiplus" />
                 <div class="card-body">
                     <h5 class="card-title">Rctiplus as Test Engineer</h5>
-                    <p class="card-text">Web UI => Selenium, Selenium Grid, TestNG, Allure Report, Jenkins, Docker, Java
+                    <p class="card-text">
+                        Web UI => Selenium, Selenium Grid, TestNG, Allure Report, Jenkins,
+                        Docker, Java
                         <br />
-                        Make Automation Testing Api => Rest Assured, TestNG, Allure Report, Jenkins, Java <br />
+                        Make Automation Testing Api => Rest Assured, TestNG, Allure
+                        Report, Jenkins, Java <br />
                         Api Load Test => K6, Artillery
                     </p>
                 </div>
@@ -142,11 +233,13 @@
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="img/experiences/tanihub.jpeg" alt="Tanihub Group">
+                <img class="card-img-top" src="img/experiences/tanihub.jpeg" alt="Tanihub Group" />
                 <div class="card-body">
                     <h5 class="card-title">Tanifund as QA Automation</h5>
-                    <p class="card-text">Make Automation Testing
-                        Api => Httparty, Cucumber, Jenkins, Docker, Ruby</p>
+                    <p class="card-text">
+                        Make Automation Testing Api => Httparty, Cucumber, Jenkins,
+                        Docker, Ruby
+                    </p>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">Nov 2020 – Now</small>
@@ -155,20 +248,21 @@
         </div>
     </div>
 
-    <div class="container" id="download">
-        <div class="download">
-            <h1 class="title-content">Get this Source Code Below</h1>
-            <p class="text-download"> <a target="_blank" href="https://github.com/dikako/kuliah-bootstrap">Download</a>
-            </p>
-        </div>
-    </div>
-
     <div class="container" id="games">
         <div class="games">
             <h1 class="title-content">Simple Games</h1>
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://dikako.github.io/MusicBox/"></iframe>
-              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="download">
+        <div class="download">
+            <h1 class="title-content">Get this Source Code Below</h1>
+            <p class="text-download">
+                <a target="_blank" href="https://github.com/dikako/kuliah-bootstrap">Download</a>
+            </p>
         </div>
     </div>
 
@@ -184,6 +278,9 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
 </body>
 

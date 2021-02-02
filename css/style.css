@@ -150,3 +150,32 @@ a {
   color: black;
   text-align: center;
 }
+
+b {
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.dropdown-menu {
+  font-family: 'Work Sans', sans-serif;
+  background-color: rgba(0, 0, 0, 0.040);
+}
+
+.dropdown-item {
+  font-family: 'Work Sans', sans-serif;
+  color: black;
+  font-style: oblique;
+  font-size: 12;
+}
+
+.dropdown-divider {
+  background-color: black;
+}
+
+.btn-light {
+  background-color: rgba(253, 245, 230, 0);
+  color: black;
+  border: none;
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+}
